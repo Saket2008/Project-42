@@ -73,7 +73,7 @@ function draw() {
   }
 
   angleMode(DEGREES);
-  hrAng = map(60, 0, 60, 0, 360);
+  hrAng = map(hm + add, 0, 60, 0, 360);
   minAng = map(min, 0, 60, 0, 360);
   secAng = map(sec, 0, 60, 0, 360);
 
